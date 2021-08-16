@@ -2,3 +2,23 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+#search_links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#search_links a {
+    padding: 5px 10px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#google_logo {
+    max-width: 500px;
+    max-height: 400px;
+}
