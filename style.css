@@ -10,25 +10,26 @@ body {
 /* ------------------------
         LINKS 
 ---------------------------*/
-#search_links {
+.search_links {
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
 
-#search_links a {
+.search_links a {
     padding: 5px 10px;
 }
 
 /* ------------------------
         GOOGLE LOGO 
 ---------------------------*/
-#logo {
+.logo {
     display: flex;
     justify-content: center;
 }
 
-#google_logo {
+#google_logo,
+#image_logo {
     max-width: 300px;
     max-height: 300px;
 }
@@ -43,7 +44,7 @@ form {
     align-items: center;
 }
 
-#input_area {
+.input_area {
     width: 60%;
     height: 40px;
     border: 1px solid lightgray;
@@ -51,7 +52,7 @@ form {
     margin-bottom: 20px;
 }
 
-#submit_button {
+.submit_button {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -68,6 +69,8 @@ form {
     user-select: none;
 }
 
-#submit_button:hover {
+.input_area:hover, 
+.submit_button:hover {
     border: 1px solid lightgray;
+    box-shadow: 0px 2px 4px lightgray;
 }
