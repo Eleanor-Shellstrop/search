@@ -1,8 +1,15 @@
+/* ------------------------
+        GENERAL 
+---------------------------*/
+
 body {
     display: flex;
     flex-direction: column;
 }
 
+/* ------------------------
+        LINKS 
+---------------------------*/
 #search_links {
     width: 100%;
     display: flex;
@@ -13,6 +20,9 @@ body {
     padding: 5px 10px;
 }
 
+/* ------------------------
+        GOOGLE LOGO 
+---------------------------*/
 #logo {
     display: flex;
     justify-content: center;
@@ -21,4 +31,22 @@ body {
 #google_logo {
     max-width: 500px;
     max-height: 400px;
+}
+
+/* ------------------------
+        FORM 
+---------------------------*/
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#input_area {
+    width: 60%;
+    height: 37px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
