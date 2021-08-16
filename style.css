@@ -29,8 +29,8 @@ body {
 }
 
 #google_logo {
-    max-width: 500px;
-    max-height: 400px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 /* ------------------------
@@ -45,8 +45,29 @@ form {
 
 #input_area {
     width: 60%;
-    height: 37px;
+    height: 40px;
     border: 1px solid lightgray;
-    border-radius: 10px;
+    border-radius: 30px;
     margin-bottom: 20px;
+}
+
+#submit_button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#submit_button:hover {
+    border: 1px solid lightgray;
 }
