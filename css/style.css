@@ -55,6 +55,7 @@ form {
     border: 1px solid lightgray;
     border-radius: 30px;
     margin-bottom: 20px;
+    padding-left: 20px;
 }
 
 .submit_button {
