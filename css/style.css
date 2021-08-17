@@ -27,8 +27,10 @@ body {
         GOOGLE LOGO 
 ---------------------------*/
 .logo {
+    height: 200px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #google_logo,
