@@ -1,6 +1,9 @@
 /* ------------------------
         GENERAL 
 ---------------------------*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
 body {
     display: flex;
@@ -73,11 +76,4 @@ form {
 .submit_button:hover {
     border: 1px solid lightgray;
     box-shadow: 0px 2px 4px lightgray;
-}
-
-#advanced_form {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
 }

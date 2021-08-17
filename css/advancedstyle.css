@@ -1,0 +1,17 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    display: table;
+}
+
+.search_field {
+    display: table-row;
+}
+
+label, 
+input {
+    display: table-cell;
+    margin: 10px;
+}
